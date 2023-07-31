@@ -15,3 +15,7 @@
 3.ตัวอย่างการใช้งาน:
     - Middleware: ตรวจสอบการรับ-ส่งข้อมูลตาม request เช่น การตรวจสอบการรับส่งข้อมูล JSON, การตรวจสอบการตรวจสอบสิทธิ์ผู้ใช้งาน 
     - Interceptor: สามารถแปลงข้อมูลหรือแก้ไขข้อมูลก่อนหรือหลังการส่งต่อ เช่น การเพิ่มข้อมูลเวลา หรือการเรียกใช้แหล่งข้อมูลย้อนหลัง 
+5.ข้อ 5 ยังใช้ NestJS Framework ไม่เป็น ทำได้เพียงสร้างfolder NestJS Framework โดยใช้คำสั่งสร้าง ดังนี้
+5.1 /nest generate service user
+5.2 /nest generate service product
+5.3 /nest generate service authorization
